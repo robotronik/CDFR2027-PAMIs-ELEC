@@ -1364,7 +1364,7 @@
 	)
 	(text_box "ESP Status LED\n"
 		(exclude_from_sim no)
-		(at 107.95 73.66 0)
+		(at 92.71 76.2 0)
 		(size 21.59 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1384,7 +1384,7 @@
 	)
 	(text_box "LED Strip"
 		(exclude_from_sim no)
-		(at 181.61 63.5 0)
+		(at 166.37 66.04 0)
 		(size 36.83 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1404,7 +1404,7 @@
 	)
 	(text_box "Servos\n"
 		(exclude_from_sim no)
-		(at 134.62 63.5 0)
+		(at 119.38 66.04 0)
 		(size 43.18 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1424,7 +1424,7 @@
 	)
 	(text_box "Spare GPIOs"
 		(exclude_from_sim no)
-		(at 181.61 81.28 0)
+		(at 166.37 83.82 0)
 		(size 36.83 19.05)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1443,14 +1443,14 @@
 		(uuid "7794b949-cf9f-4fc9-9a9c-5b5d7d2d839d")
 	)
 	(junction
-		(at 118.11 92.71)
+		(at 102.87 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50d64aea-e4d9-4cef-b883-868b88d9224e")
 	)
 	(wire
 		(pts
-			(xy 118.11 110.49) (xy 118.11 107.95)
+			(xy 102.87 113.03) (xy 102.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 68.58) (xy 195.58 68.58)
+			(xy 179.07 71.12) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 90.17) (xy 118.11 92.71)
+			(xy 102.87 92.71) (xy 102.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1480,7 @@
 	)
 	(hierarchical_label "IO12"
 		(shape input)
-		(at 194.31 91.44 180)
+		(at 179.07 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1489,9 +1489,9 @@
 		)
 		(uuid "0a1db150-9421-4ba3-822f-69e8bdc69145")
 	)
-	(hierarchical_label "SERVO_A"
+	(hierarchical_label "SERVO_1"
 		(shape input)
-		(at 151.13 68.58 180)
+		(at 135.89 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1502,7 +1502,7 @@
 	)
 	(hierarchical_label "LED_STRIP"
 		(shape input)
-		(at 194.31 68.58 180)
+		(at 179.07 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1511,9 +1511,9 @@
 		)
 		(uuid "2cdfba79-6723-4386-800c-776db6306668")
 	)
-	(hierarchical_label "SERVO_B"
+	(hierarchical_label "SERVO_2"
 		(shape input)
-		(at 151.13 81.28 180)
+		(at 135.89 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1522,9 +1522,9 @@
 		)
 		(uuid "4d1040c1-9ee8-4548-a525-1e7dda8100b9")
 	)
-	(hierarchical_label "SERVO_D"
+	(hierarchical_label "SERVO_4"
 		(shape input)
-		(at 151.13 105.41 180)
+		(at 135.89 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1535,7 +1535,7 @@
 	)
 	(hierarchical_label "IO13"
 		(shape input)
-		(at 194.31 93.98 180)
+		(at 179.07 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1546,7 +1546,7 @@
 	)
 	(hierarchical_label "IO14"
 		(shape input)
-		(at 194.31 96.52 180)
+		(at 179.07 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1557,7 +1557,7 @@
 	)
 	(hierarchical_label "STATUS_LED"
 		(shape input)
-		(at 118.11 90.17 90)
+		(at 102.87 92.71 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 	)
 	(hierarchical_label "IO11"
 		(shape input)
-		(at 194.31 88.9 180)
+		(at 179.07 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 	)
 	(hierarchical_label "IO10"
 		(shape input)
-		(at 194.31 86.36 180)
+		(at 179.07 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1588,9 +1588,9 @@
 		)
 		(uuid "da930d14-1989-4bef-9e5e-33ee04fa9108")
 	)
-	(hierarchical_label "SERVO_C"
+	(hierarchical_label "SERVO_3"
 		(shape input)
-		(at 151.13 93.98 180)
+		(at 135.89 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1601,7 +1601,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 92.71 90)
+		(at 102.87 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1611,8 +1611,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e6a546-cd7e-4e82-8229-addf422b5d24")
-		(property "Reference" "TP5"
-			(at 114.808 90.17 90)
+		(property "Reference" "TP4"
+			(at 99.568 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.284 90.17 90)
+			(at 98.044 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1633,7 +1633,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 118.11 87.63 0)
+			(at 102.87 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1644,7 +1644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 87.63 0)
+			(at 102.87 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,7 +1655,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 118.11 92.71 0)
+			(at 102.87 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1666,7 +1666,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 118.11 92.71 90)
+			(at 102.87 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1680,9 +1680,9 @@
 			(uuid "d9769a2c-04ee-4968-b43f-40df3047bd3a")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1690,7 +1690,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 118.11 104.14 90)
+		(at 102.87 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1701,7 +1701,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b72517c-26e3-4b4f-a0cc-437cd2b01775")
 		(property "Reference" "S_ESP1"
-			(at 121.92 104.4574 90)
+			(at 106.68 106.9974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1712,7 +1712,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 121.92 106.9974 90)
+			(at 106.68 109.5374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1723,7 +1723,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 118.11 104.14 0)
+			(at 102.87 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 104.14 0)
+			(at 102.87 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1745,7 +1745,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 118.11 104.14 0)
+			(at 102.87 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 104.14 0)
+			(at 102.87 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,7 +1767,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 118.11 104.14 90)
+			(at 102.87 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +1784,7 @@
 			(uuid "68215b86-968b-449c-91ea-06c06dea2f76")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
 					(reference "S_ESP1")
 					(unit 1)
@@ -1794,7 +1794,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 110.49 270)
+		(at 135.89 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1805,7 +1805,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f517518-3f1f-4b7e-ba95-e5b91c23a13d")
 		(property "Reference" "#PWR048"
-			(at 144.78 110.49 0)
+			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1816,7 +1816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 110.4899 90)
+			(at 132.08 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1827,7 +1827,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
-			(at 151.13 110.49 0)
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1838,7 +1838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 110.49 0)
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1849,7 +1849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 110.49 0)
+			(at 135.89 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +1863,7 @@
 			(uuid "e0c8597a-2c7a-4948-97a2-90a4ad510435")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
 					(reference "#PWR048")
 					(unit 1)
@@ -1873,7 +1873,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 199.39 91.44 180)
+		(at 184.15 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1883,8 +1883,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2554dc5a-f0dc-4bd4-92a8-d5a9eeced94d")
-		(property "Reference" "J8"
-			(at 200.66 90.1699 0)
+		(property "Reference" "Spare_GPIOs1"
+			(at 185.42 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1895,7 +1895,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 200.66 92.7099 0)
+			(at 185.42 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1905,8 +1905,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 199.39 91.44 0)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+			(at 184.15 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1917,7 +1917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 91.44 0)
+			(at 184.15 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1928,7 +1928,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 199.39 91.44 0)
+			(at 184.15 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1954,9 +1954,9 @@
 			(uuid "92be3c41-f084-4442-849a-6e5bf47850ff")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "J8")
+					(reference "Spare_GPIOs1")
 					(unit 1)
 				)
 			)
@@ -1964,7 +1964,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 86.36 270)
+		(at 135.89 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1974,8 +1974,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324b46b3-b59b-48d6-b09f-875e798ceabc")
-		(property "Reference" "#PWR041"
-			(at 144.78 86.36 0)
+		(property "Reference" "#PWR044"
+			(at 129.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +1986,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 86.3599 90)
+			(at 132.08 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1997,7 +1997,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
-			(at 151.13 86.36 0)
+			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2008,7 +2008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 86.36 0)
+			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2019,7 +2019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 86.36 0)
+			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2033,9 +2033,9 @@
 			(uuid "db151c9b-ea4c-4562-91a4-d771f8fc2e1b")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2043,7 +2043,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 151.13 71.12 90)
+		(at 135.89 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2053,8 +2053,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "359f0aa3-9ce4-4f1f-8ebe-ea9b0606b096")
-		(property "Reference" "#PWR039"
-			(at 154.94 71.12 0)
+		(property "Reference" "#PWR041"
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2065,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 71.1199 90)
+			(at 132.08 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2076,7 +2076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 71.12 0)
+			(at 135.89 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2087,7 +2087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 71.12 0)
+			(at 135.89 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 151.13 71.12 0)
+			(at 135.89 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2112,9 +2112,9 @@
 			(uuid "04948aec-8a14-4074-a147-b57b67478809")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2122,7 +2122,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 200.66 71.12 180)
+		(at 185.42 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2132,8 +2132,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c0380a-7dbb-4f25-b54a-beff67650b51")
-		(property "Reference" "J1"
-			(at 201.93 69.8499 0)
+		(property "Reference" "LED_strip1"
+			(at 186.69 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2144,7 +2144,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 201.93 72.3899 0)
+			(at 186.69 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2154,8 +2154,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.66 71.12 0)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 71.12 0)
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 200.66 71.12 0)
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2197,9 +2197,9 @@
 			(uuid "ac7d667c-f337-4df6-808b-d09fb0702f9e")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "J1")
+					(reference "LED_strip1")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 73.66 270)
+		(at 180.34 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2217,8 +2217,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b3415bc-c0d9-4460-84c4-3e5e95fb54af")
-		(property "Reference" "#PWR07"
-			(at 189.23 73.66 0)
+		(property "Reference" "#PWR050"
+			(at 173.99 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,7 +2229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 73.6599 90)
+			(at 176.53 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 73.66 0)
+			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 73.66 0)
+			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 73.66 0)
+			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,9 +2276,9 @@
 			(uuid "b7c79428-23f6-4d87-823b-840285a3ed5a")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR07")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2286,7 +2286,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 156.21 96.52 180)
+		(at 140.97 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2296,8 +2296,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1246a3-3260-4f6b-a17a-d954d11f35fc")
-		(property "Reference" "J5"
-			(at 157.48 95.2499 0)
+		(property "Reference" "SERVO_3"
+			(at 142.24 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2308,7 +2308,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 157.48 97.7899 0)
+			(at 142.24 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2318,8 +2318,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 96.52 0)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +2330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 96.52 0)
+			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 156.21 96.52 0)
+			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2361,9 +2361,9 @@
 			(uuid "0819294a-681d-4f6a-982c-d86a96a9ee32")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "J5")
+					(reference "SERVO_3")
 					(unit 1)
 				)
 			)
@@ -2371,7 +2371,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 195.58 71.12 90)
+		(at 180.34 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2381,8 +2381,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607d9d59-fb84-466c-ba26-4cc48be459ea")
-		(property "Reference" "#PWR08"
-			(at 199.39 71.12 0)
+		(property "Reference" "#PWR049"
+			(at 184.15 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2393,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 191.77 71.1199 90)
+			(at 176.53 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2404,7 +2404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 71.12 0)
+			(at 180.34 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +2415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 71.12 0)
+			(at 180.34 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,7 +2426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 195.58 71.12 0)
+			(at 180.34 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,9 +2440,9 @@
 			(uuid "a50f8b13-2165-4a52-8e12-7b7bfc183ceb")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR08")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2450,7 +2450,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 156.21 83.82 180)
+		(at 140.97 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2460,8 +2460,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "909cccb9-692e-47b0-b020-86a1a527d229")
-		(property "Reference" "J4"
-			(at 157.48 82.5499 0)
+		(property "Reference" "SERVO_2"
+			(at 142.24 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2472,7 +2472,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 157.48 85.0899 0)
+			(at 142.24 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2482,8 +2482,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 83.82 0)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 140.97 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 83.82 0)
+			(at 140.97 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 156.21 83.82 0)
+			(at 140.97 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,9 +2525,9 @@
 			(uuid "cda099ab-7ce7-4e94-a9ec-68800ac0c989")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "J4")
+					(reference "SERVO_2")
 					(unit 1)
 				)
 			)
@@ -2535,7 +2535,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 151.13 107.95 90)
+		(at 135.89 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2546,7 +2546,7 @@
 		(fields_autoplaced yes)
 		(uuid "97195e9e-c8e5-4791-b7e9-55f0c40feb4c")
 		(property "Reference" "#PWR047"
-			(at 154.94 107.95 0)
+			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +2557,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 107.9499 90)
+			(at 132.08 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2568,7 +2568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 107.95 0)
+			(at 135.89 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 107.95 0)
+			(at 135.89 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 151.13 107.95 0)
+			(at 135.89 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2604,7 +2604,7 @@
 			(uuid "8f9ac0e1-6de5-458a-89ed-69c97e06547b")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
 					(reference "#PWR047")
 					(unit 1)
@@ -2614,7 +2614,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 96.52 0)
+		(at 102.87 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2624,8 +2624,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7b2b26-b6e5-463c-b2c7-78a2769d4452")
-		(property "Reference" "R13"
-			(at 120.65 95.2499 0)
+		(property "Reference" "R22"
+			(at 105.41 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2636,7 +2636,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 120.65 97.7899 0)
+			(at 105.41 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2647,7 +2647,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.332 96.52 90)
+			(at 101.092 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +2658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 96.52 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 96.52 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2680,7 +2680,7 @@
 			)
 		)
 		(property "LCSC" "C4045076"
-			(at 118.11 96.52 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,9 +2697,9 @@
 			(uuid "24264285-af53-4645-816f-358aca6e1bf9")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "R13")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2707,7 +2707,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 156.21 71.12 180)
+		(at 140.97 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2717,8 +2717,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c26f959-4a11-4e1d-bad7-612ff994c6f8")
-		(property "Reference" "J3"
-			(at 157.48 69.8499 0)
+		(property "Reference" "SERVO_1"
+			(at 142.24 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2729,7 +2729,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 157.48 72.3899 0)
+			(at 142.24 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2739,8 +2739,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 71.12 0)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,7 +2751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 71.12 0)
+			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2762,7 +2762,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 156.21 71.12 0)
+			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,9 +2782,9 @@
 			(uuid "2355a984-a955-4b36-b2fd-f4b103fa7911")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "J3")
+					(reference "SERVO_1")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2792,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 151.13 96.52 90)
+		(at 135.89 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2802,8 +2802,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6fe9700-f9c6-491b-a27f-e7a52f90c264")
-		(property "Reference" "#PWR043"
-			(at 154.94 96.52 0)
+		(property "Reference" "#PWR045"
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2814,7 +2814,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 96.5199 90)
+			(at 132.08 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2825,7 +2825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 96.52 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2836,7 +2836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 96.52 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +2847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 151.13 96.52 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2861,9 +2861,9 @@
 			(uuid "a38229a1-ed45-4904-96f6-cf377b4cb542")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2871,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 99.06 270)
+		(at 135.89 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2882,7 +2882,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc12497c-b6e6-4fe1-b421-e7c347a63279")
 		(property "Reference" "#PWR046"
-			(at 144.78 99.06 0)
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 99.0599 90)
+			(at 132.08 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2904,7 +2904,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
-			(at 151.13 99.06 0)
+			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,7 +2915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 99.06 0)
+			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2926,7 +2926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 99.06 0)
+			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2940,7 +2940,7 @@
 			(uuid "6b4c815e-7cef-4ee9-a68e-aa22e14048f4")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
 					(reference "#PWR046")
 					(unit 1)
@@ -2950,7 +2950,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 73.66 270)
+		(at 135.89 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2960,8 +2960,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de99c7e5-e33e-4f45-9c5e-44ee43f3fe6f")
-		(property "Reference" "#PWR040"
-			(at 144.78 73.66 0)
+		(property "Reference" "#PWR042"
+			(at 129.54 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2972,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 73.6599 90)
+			(at 132.08 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2983,7 +2983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 73.66 0)
+			(at 135.89 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +2994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 73.66 0)
+			(at 135.89 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3005,7 +3005,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 73.66 0)
+			(at 135.89 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3019,9 +3019,9 @@
 			(uuid "e3bc1baa-7d7b-4bc0-b432-30ed763cee07")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3029,7 +3029,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 151.13 83.82 90)
+		(at 135.89 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3039,8 +3039,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e4ec56-e48a-4b4c-9aea-3e89a16d6a57")
-		(property "Reference" "#PWR042"
-			(at 154.94 83.82 0)
+		(property "Reference" "#PWR043"
+			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +3051,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 83.8199 90)
+			(at 132.08 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3062,7 +3062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 83.82 0)
+			(at 135.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 83.82 0)
+			(at 135.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +3084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 151.13 83.82 0)
+			(at 135.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3098,9 +3098,9 @@
 			(uuid "f075b20d-77ae-41bc-9dc5-35b08b9fe122")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3108,7 +3108,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 118.11 110.49 0)
+		(at 102.87 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3118,8 +3118,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56e3d97-eb10-487c-bb5b-3b47d2e091ba")
-		(property "Reference" "#PWR024"
-			(at 118.11 116.84 0)
+		(property "Reference" "#PWR040"
+			(at 102.87 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 114.3 0)
+			(at 102.87 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3141,7 +3141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 110.49 0)
+			(at 102.87 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3152,7 +3152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 110.49 0)
+			(at 102.87 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 119.38 0)
+			(at 102.87 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3177,9 +3177,9 @@
 			(uuid "3e78cc12-38c2-4b89-b1e6-5a4fd0c71f8b")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR024")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3187,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 156.21 107.95 180)
+		(at 140.97 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3197,8 +3197,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe6e9315-54f4-4400-8dea-ffeaf75b1a78")
-		(property "Reference" "J6"
-			(at 157.48 106.6799 0)
+		(property "Reference" "SERVO_4"
+			(at 142.24 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 157.48 109.2199 0)
+			(at 142.24 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3219,8 +3219,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 107.95 0)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 140.97 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 107.95 0)
+			(at 140.97 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 156.21 107.95 0)
+			(at 140.97 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3262,9 +3262,9 @@
 			(uuid "4ea42c0d-8e67-4888-b1d4-ec6111a94dbc")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "J6")
+					(reference "SERVO_4")
 					(unit 1)
 				)
 			)

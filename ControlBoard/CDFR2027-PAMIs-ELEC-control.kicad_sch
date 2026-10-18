@@ -1711,12 +1711,6 @@
 		(uuid "a029de68-68d2-42b9-9f65-af46576bb52a")
 	)
 	(junction
-		(at 132.08 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac8bfd7c-9ad1-4cd8-8aa3-f3f3e1b5ea2e")
-	)
-	(junction
 		(at 153.67 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1867,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "1c71782c-b061-49a3-9b02-24a9a3897fd8")
-	)
-	(wire
-		(pts
-			(xy 132.08 58.42) (xy 132.08 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2479b30b-c7cd-448f-b7a5-521709568af0")
 	)
 	(wire
 		(pts
@@ -2240,16 +2224,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 132.08 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52660a8-66f4-4c35-b3d1-abfb28919a56")
-	)
-	(wire
-		(pts
 			(xy 168.91 78.74) (xy 196.85 78.74)
 		)
 		(stroke
@@ -2540,7 +2514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "022edb51-3276-499e-8f8b-c9640bd5df77")
-		(property "Reference" "C13"
+		(property "Reference" "C1"
 			(at 113.03 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -2600,88 +2574,9 @@
 			(uuid "34ec8752-cf5a-4866-95f9-47d100e6a5a9")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 132.08 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b3db6cd-671b-46e8-b0e0-d5e94e5a01c3")
-		(property "Reference" "C12"
-			(at 138.684 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBD"
-			(at 136.144 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 133.0452 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e8c3a03-24ad-40b6-abdf-9a12b9d58042")
-		)
-		(pin "1"
-			(uuid "af14b38b-9537-4b2a-a57a-6b1e53c6d8e3")
-		)
-		(instances
-			(project "CDFR2027-PAMIs-ELEC"
-				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "C12")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2698,7 +2593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a821052-42a4-454c-842a-95c02ff9ba93")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 153.67 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2756,9 +2651,9 @@
 			(uuid "c39ed738-db2e-416f-b780-47f37f7daf55")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e74d494-d1cc-4185-9658-174e2674ac55")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 125.73 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +2691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -2836,9 +2731,9 @@
 			(uuid "3cf33b08-0b07-478d-8289-2300360a81b9")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2878,7 +2773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 25.4 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -2912,7 +2807,7 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
 					(reference "H1")
 					(unit 1)
@@ -2931,7 +2826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e495644-5991-4090-86ad-8f1dde6f73f9")
-		(property "Reference" "C10"
+		(property "Reference" "C3"
 			(at 143.51 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2951,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 47.2948 0)
 			(hide yes)
 			(show_name no)
@@ -2991,9 +2886,9 @@
 			(uuid "3e7f92e7-757e-4e98-ba7b-8e9fc4e83380")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "C10")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3011,7 +2906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "548e6f48-7a3f-4753-ab45-4864865cb75e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 153.67 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3069,9 +2964,9 @@
 			(uuid "46691ae1-00b1-4d1a-a192-1c5f9c1c4a7a")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 45.72 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3145,7 +3040,7 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
 					(reference "H4")
 					(unit 1)
@@ -3165,7 +3060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "873b45f2-aa59-4bce-8e83-cd0a111dd5f3")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 27.94 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 25.4 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3221,9 +3116,9 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "984a9fc9-2632-4ba5-a44c-4e28c8e863bf")
-		(property "Reference" "SW1"
+		(property "Reference" "SW_BOOT1"
 			(at 124.46 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3261,7 +3156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 124.46 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3301,9 +3196,9 @@
 			(uuid "f1f98809-05bf-45bf-be19-7a665876a1ba")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "SW1")
+					(reference "SW_BOOT1")
 					(unit 1)
 				)
 			)
@@ -3321,7 +3216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b70d8da1-628f-4b90-8bff-e81bcc3bd62b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 113.03 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3380,9 +3275,9 @@
 			(uuid "78d693af-e6e2-41c9-ae69-4f73e22f435c")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3fa5a12-63cf-4c24-8f9a-387fedad086f")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 48.26 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3422,7 +3317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 45.72 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -3456,9 +3351,9 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3476,7 +3371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c428c9d6-2041-4bc7-9929-02ae03843bdc")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 143.51 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,7 +3381,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10k"
 			(at 143.51 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.51 57.912 90)
 			(hide yes)
 			(show_name no)
@@ -3536,9 +3431,9 @@
 			(uuid "6ae3fa73-3d16-4479-b86c-2dcaa1e5b4aa")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3556,7 +3451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf7f21fd-7706-4a4b-a642-761b98660f41")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR01"
 			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3615,9 +3510,9 @@
 			(uuid "09a6870f-69bf-4839-b1f6-f4e8bddec4ed")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "#PWR012")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3635,7 +3530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6fe9fd8-ef58-4913-81a0-85bf23199750")
-		(property "Reference" "SW2"
+		(property "Reference" "SW_ENABLE1"
 			(at 113.03 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 113.03 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3695,9 +3590,9 @@
 			(uuid "55745848-9a74-42e1-8ed9-21859a137319")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "SW2")
+					(reference "SW_ENABLE1")
 					(unit 1)
 				)
 			)
@@ -3714,7 +3609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3096b43-728a-4c1b-b26b-6cb1823c4356")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 143.51 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +3629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 35.8648 0)
 			(hide yes)
 			(show_name no)
@@ -3774,9 +3669,9 @@
 			(uuid "ee41ed46-802c-488b-a2ca-ceae21a0a640")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3794,7 +3689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e4ec13-8a2f-4d54-8f39-1c8732a70105")
-		(property "Reference" "U1"
+		(property "Reference" "ESP32-S3-WROOM1"
 			(at 155.8133 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,9 +3868,9 @@
 			(uuid "3dfbe04b-4dc2-4720-b82d-c9475ddbe7c6")
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
-					(reference "U1")
+					(reference "ESP32-S3-WROOM1")
 					(unit 1)
 				)
 			)
@@ -4030,7 +3925,7 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
 					(page "2")
 				)
@@ -4075,7 +3970,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DC_A_IN1" input
+		(pin "DC_1_IN1" input
 			(at 85.09 111.76 0)
 			(uuid "d366eab4-7dba-4547-8a9d-29d375a33bfd")
 			(effects
@@ -4085,7 +3980,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_A_IN2" input
+		(pin "DC_1_IN2" input
 			(at 85.09 114.3 0)
 			(uuid "8a24576c-cf29-4ac5-ae54-c335917cedd5")
 			(effects
@@ -4095,7 +3990,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_B_IN1" input
+		(pin "DC_2_IN1" input
 			(at 85.09 119.38 0)
 			(uuid "0ee6de71-74ec-4647-9540-67a9a1c519aa")
 			(effects
@@ -4105,7 +4000,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_B_IN2" input
+		(pin "DC_2_IN2" input
 			(at 85.09 121.92 0)
 			(uuid "b1a9fab5-e773-4285-ad5d-05f859bd4e8d")
 			(effects
@@ -4115,7 +4010,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_C_IN1" input
+		(pin "DC_3_IN1" input
 			(at 85.09 127 0)
 			(uuid "f2615063-0c0f-4930-a39c-524b562a56b9")
 			(effects
@@ -4125,7 +4020,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_C_IN2" input
+		(pin "DC_3_IN2" input
 			(at 85.09 129.54 0)
 			(uuid "7eb774f6-db1d-4c5f-bfeb-532675b7cffd")
 			(effects
@@ -4136,7 +4031,7 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
 					(page "3")
 				)
@@ -4181,7 +4076,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SERVO_A" input
+		(pin "SERVO_1" input
 			(at 171.45 130.81 90)
 			(uuid "5cd89c98-c207-4379-8c5f-8cfad98efe89")
 			(effects
@@ -4191,7 +4086,7 @@
 				(justify right)
 			)
 		)
-		(pin "SERVO_B" input
+		(pin "SERVO_2" input
 			(at 173.99 130.81 90)
 			(uuid "9f3d9677-c3bc-4219-b3b9-01e9f0cb80d0")
 			(effects
@@ -4201,7 +4096,7 @@
 				(justify right)
 			)
 		)
-		(pin "SERVO_C" input
+		(pin "SERVO_3" input
 			(at 176.53 130.81 90)
 			(uuid "c6789542-753e-4157-bb1f-e96b82258661")
 			(effects
@@ -4211,7 +4106,7 @@
 				(justify right)
 			)
 		)
-		(pin "SERVO_D" input
+		(pin "SERVO_4" input
 			(at 179.07 130.81 90)
 			(uuid "03d61968-9d0d-4eaf-b372-dc55b50cac1b")
 			(effects
@@ -4292,7 +4187,7 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
 					(page "5")
 				)
@@ -4448,7 +4343,7 @@
 			)
 		)
 		(instances
-			(project "CDFR2027-PAMIs-ELEC"
+			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13"
 					(page "4")
 				)
