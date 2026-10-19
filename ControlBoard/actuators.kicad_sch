@@ -1804,7 +1804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f517518-3f1f-4b7e-ba95-e5b91c23a13d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1865,7 +1865,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1974,7 +1974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324b46b3-b59b-48d6-b09f-875e798ceabc")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 129.54 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2053,7 +2053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "359f0aa3-9ce4-4f1f-8ebe-ea9b0606b096")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2114,7 +2114,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2217,7 +2217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b3415bc-c0d9-4460-84c4-3e5e95fb54af")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 173.99 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2278,7 +2278,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2381,7 +2381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607d9d59-fb84-466c-ba26-4cc48be459ea")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 184.15 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2442,7 +2442,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97195e9e-c8e5-4791-b7e9-55f0c40feb4c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2606,7 +2606,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2624,7 +2624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7b2b26-b6e5-463c-b2c7-78a2769d4452")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 105.41 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2699,7 +2699,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2802,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6fe9700-f9c6-491b-a27f-e7a52f90c264")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2863,7 +2863,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2881,7 +2881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc12497c-b6e6-4fe1-b421-e7c347a63279")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2942,7 +2942,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2960,7 +2960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de99c7e5-e33e-4f45-9c5e-44ee43f3fe6f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 129.54 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3021,7 +3021,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3039,7 +3039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e4ec56-e48a-4b4c-9aea-3e89a16d6a57")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3100,7 +3100,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3118,7 +3118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56e3d97-eb10-487c-bb5b-3b47d2e091ba")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 102.87 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3179,7 +3179,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/69c65a6e-fa15-49ab-aaed-4f63cbee0221"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

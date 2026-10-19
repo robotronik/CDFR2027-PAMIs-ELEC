@@ -641,6 +641,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -2900,7 +3066,7 @@
 	(text_box "Buck 5V "
 		(exclude_from_sim no)
 		(at 134.62 41.91 0)
-		(size 63.5 40.64)
+		(size 68.58 40.64)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2939,7 +3105,7 @@
 	)
 	(text_box "LDO 3.3V\n"
 		(exclude_from_sim no)
-		(at 205.74 41.91 0)
+		(at 209.55 41.91 0)
 		(size 54.61 40.64)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2990,7 +3156,7 @@
 		(uuid "1eb6e2ec-b720-438a-b849-6b8ff0f07b7a")
 	)
 	(junction
-		(at 227.33 69.85)
+		(at 231.14 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e6723d2-0c85-47b8-8582-1fe261257c15")
@@ -3002,7 +3168,7 @@
 		(uuid "43def22c-dfda-4d46-87c8-0b83357ffd03")
 	)
 	(junction
-		(at 215.9 55.88)
+		(at 219.71 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4608d1a6-3908-4a1d-9e9b-9211b918f99d")
@@ -3032,7 +3198,7 @@
 		(uuid "61866a9c-6cd2-46b4-a575-f0bb94a7766f")
 	)
 	(junction
-		(at 210.82 55.88)
+		(at 214.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61e29421-5e98-4284-8000-5b0baf20751f")
@@ -3062,16 +3228,10 @@
 		(uuid "7975f570-3d86-492a-a090-0f26493e224d")
 	)
 	(junction
-		(at 242.57 55.88)
+		(at 246.38 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9331c52f-8b56-45f8-a066-a0c7df9f2e66")
-	)
-	(junction
-		(at 193.04 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98d517fa-dbd1-424d-bd2c-d7b35a4ffbd4")
 	)
 	(junction
 		(at 92.71 74.93)
@@ -3080,7 +3240,7 @@
 		(uuid "9a96ee90-ec20-438e-a673-8754b91a5c4a")
 	)
 	(junction
-		(at 254 55.88)
+		(at 257.81 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a63b199c-fe24-4004-b1da-f5fe317cc14e")
@@ -3098,10 +3258,22 @@
 		(uuid "ad170aad-6c5f-424d-9222-794b2c8988b1")
 	)
 	(junction
+		(at 200.66 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af328543-d014-4556-8005-f25e1fce8f52")
+	)
+	(junction
 		(at 118.11 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbcc0a2e-75a1-4526-bcc7-cdd7e53c9b08")
+	)
+	(junction
+		(at 205.74 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec88d0ff-77ca-4838-89cc-bd67fb2f0c74")
 	)
 	(junction
 		(at 175.26 55.88)
@@ -3117,6 +3289,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 55.88) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f2bfcc-0338-43b3-b3e2-5eb592845e79")
+	)
+	(wire
+		(pts
 			(xy 138.43 53.34) (xy 138.43 58.42)
 		)
 		(stroke
@@ -3127,16 +3309,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 55.88) (xy 191.77 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ba49e3-cb32-4948-b8a1-65de9066494c")
-	)
-	(wire
-		(pts
 			(xy 182.88 55.88) (xy 182.88 58.42)
 		)
 		(stroke
@@ -3144,16 +3316,6 @@
 			(type default)
 		)
 		(uuid "08a21045-21e5-4692-ad0d-75cdc94e9a58")
-	)
-	(wire
-		(pts
-			(xy 193.04 55.88) (xy 210.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c2a6654-0516-4527-b956-c9f996cc3042")
 	)
 	(wire
 		(pts
@@ -3207,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 58.42) (xy 215.9 58.42)
+			(xy 223.52 58.42) (xy 219.71 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3247,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 55.88) (xy 210.82 59.69)
+			(xy 214.63 55.88) (xy 214.63 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3267,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 245.11 55.88)
+			(xy 246.38 55.88) (xy 248.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3307,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 55.88) (xy 254 60.96)
+			(xy 257.81 55.88) (xy 257.81 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 67.31) (xy 242.57 69.85)
+			(xy 246.38 67.31) (xy 246.38 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3337,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 49.53) (xy 193.04 55.88)
+			(xy 200.66 48.26) (xy 200.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3407,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 55.88) (xy 219.71 55.88)
+			(xy 219.71 55.88) (xy 223.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3447,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 67.31) (xy 210.82 69.85)
+			(xy 214.63 67.31) (xy 214.63 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3477,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 69.85) (xy 227.33 66.04)
+			(xy 231.14 69.85) (xy 231.14 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3487,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 55.88) (xy 255.27 55.88)
+			(xy 257.81 55.88) (xy 259.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +3709,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 227.33 69.85)
+			(xy 205.74 55.88) (xy 214.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926ca46a-a81d-4739-9cd0-83596ba99359")
+	)
+	(wire
+		(pts
+			(xy 214.63 69.85) (xy 231.14 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3577,6 +3749,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 55.88) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed8b99d-3c32-4254-a940-8ff03d766db2")
+	)
+	(wire
+		(pts
 			(xy 147.32 119.38) (xy 147.32 116.84)
 		)
 		(stroke
@@ -3597,7 +3779,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 55.88) (xy 254 55.88)
+			(xy 256.54 55.88) (xy 257.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3657,7 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 72.39) (xy 227.33 69.85)
+			(xy 231.14 72.39) (xy 231.14 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3687,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 58.42) (xy 215.9 55.88)
+			(xy 219.71 58.42) (xy 219.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3697,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 62.23) (xy 193.04 55.88)
+			(xy 200.66 62.23) (xy 200.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 242.57 59.69)
+			(xy 246.38 55.88) (xy 246.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3747,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 55.88) (xy 215.9 55.88)
+			(xy 214.63 55.88) (xy 219.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +3939,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 55.88) (xy 242.57 55.88)
+			(xy 238.76 55.88) (xy 246.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3767,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 69.85) (xy 242.57 69.85)
+			(xy 231.14 69.85) (xy 246.38 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3867,6 +4049,84 @@
 		(uuid "8cf27e98-8f3c-4526-86ac-a54b953e24a3")
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
+		(at 205.74 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00bfd876-92e8-496a-985f-269bd8e3e097")
+		(property "Reference" "#PWR017"
+			(at 205.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB"
+			(at 205.74 44.45 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 205.74 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acadbca2-9b8d-4e97-aee2-ca21d65ebd69")
+		)
+		(instances
+			(project "CDFR2027-PAMIs-ELEC-control"
+				(path "/e464473e-1f11-4961-9962-67415e223b13/2b44e333-2813-4eec-85bd-a77a609ee76c"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 92.71 67.31 0)
 		(unit 1)
@@ -3943,6 +4203,86 @@
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/2b44e333-2813-4eec-85bd-a77a609ee76c"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 195.58 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09eeec3c-9cdb-4207-9826-70972cc6765e")
+		(property "Reference" "D1"
+			(at 195.8975 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 195.8975 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 195.58 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 195.58 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1177cb8a-c73f-4f5b-ad23-f6e5566c8881")
+		)
+		(pin "2"
+			(uuid "9d8a5de9-f2a3-4672-8dc2-bc30682d8c0c")
+		)
+		(instances
+			(project "CDFR2027-PAMIs-ELEC-control"
+				(path "/e464473e-1f11-4961-9962-67415e223b13/2b44e333-2813-4eec-85bd-a77a609ee76c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4132,7 +4472,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 242.57 63.5 0)
+		(at 246.38 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4143,7 +4483,7 @@
 		(fields_autoplaced yes)
 		(uuid "152b844a-09b0-4a09-98d8-f66f011c0aed")
 		(property "Reference" "C11"
-			(at 246.38 62.2299 0)
+			(at 250.19 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4154,7 +4494,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 246.38 64.7699 0)
+			(at 250.19 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4165,7 +4505,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 243.5352 67.31 0)
+			(at 247.3452 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 63.5 0)
+			(at 246.38 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4527,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 242.57 63.5 0)
+			(at 246.38 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5352,7 +5692,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 254 60.96 180)
+		(at 257.81 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5363,7 +5703,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fce6376-072e-44e7-b6b3-1e696a2578e4")
 		(property "Reference" "#FLG04"
-			(at 254 62.865 0)
+			(at 257.81 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,7 +5714,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 254.0001 64.77 90)
+			(at 257.8101 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 60.96 0)
+			(at 257.81 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 60.96 0)
+			(at 257.81 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5748,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 254 60.96 0)
+			(at 257.81 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5536,7 +5876,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 227.33 58.42 0)
+		(at 231.14 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5547,7 +5887,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c2e9e16-beb8-4605-b6b8-affcca1ab3a8")
 		(property "Reference" "LDO1"
-			(at 227.33 49.53 0)
+			(at 231.14 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5557,7 +5897,7 @@
 			)
 		)
 		(property "Value" "AP2112K-3.3"
-			(at 227.33 52.07 0)
+			(at 231.14 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5567,7 +5907,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 227.33 50.165 0)
+			(at 231.14 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5578,7 +5918,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-			(at 227.33 55.88 0)
+			(at 231.14 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,7 +5929,7 @@
 			)
 		)
 		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-			(at 227.33 58.42 0)
+			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5705,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 248.92 55.88 0)
+		(at 252.73 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5716,7 +6056,7 @@
 		(fields_autoplaced yes)
 		(uuid "63cf7d3e-0abc-4f1a-a843-af5d11bb4bb7")
 		(property "Reference" "JP2"
-			(at 248.92 52.07 0)
+			(at 252.73 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5726,7 +6066,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 248.92 52.07 0)
+			(at 252.73 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +6077,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 248.92 55.88 0)
+			(at 252.73 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5748,7 +6088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 55.88 0)
+			(at 252.73 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5759,7 +6099,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 248.92 55.88 0)
+			(at 252.73 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5786,7 +6126,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 72.39 0)
+		(at 231.14 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5796,8 +6136,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c9c512b-b055-480d-aa5a-75bc292193b9")
-		(property "Reference" "#PWR017"
-			(at 227.33 78.74 0)
+		(property "Reference" "#PWR018"
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,7 +6148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 77.47 0)
+			(at 231.14 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5818,7 +6158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 72.39 0)
+			(at 231.14 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +6169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 72.39 0)
+			(at 231.14 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +6180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 72.39 0)
+			(at 231.14 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,7 +6196,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/2b44e333-2813-4eec-85bd-a77a609ee76c"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6591,7 +6931,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
-		(at 193.04 49.53 0)
+		(at 200.66 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6602,7 +6942,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad778279-33f4-4ba3-be8c-367fe13ee182")
 		(property "Reference" "#PWR016"
-			(at 193.04 53.34 0)
+			(at 200.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6613,7 +6953,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 193.04 45.72 0)
+			(at 200.66 44.45 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6623,7 +6963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 49.53 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 49.53 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +6985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 193.04 55.88 0)
+			(at 200.66 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,7 +7545,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
-		(at 255.27 55.88 270)
+		(at 259.08 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7214,8 +7554,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6cf163e-0b87-454c-87bf-bcda1347d2bc")
-		(property "Reference" "#PWR018"
-			(at 251.46 55.88 0)
+		(property "Reference" "#PWR019"
+			(at 255.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,7 +7566,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 256.794 53.594 90)
+			(at 260.604 53.594 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7236,7 +7576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 55.88 0)
+			(at 259.08 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 55.88 0)
+			(at 259.08 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7258,7 +7598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 248.92 55.88 0)
+			(at 252.73 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7274,7 +7614,7 @@
 		(instances
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/2b44e333-2813-4eec-85bd-a77a609ee76c"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7360,7 +7700,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 63.5 0)
+		(at 214.63 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7371,7 +7711,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce805c42-ded5-4527-a5b6-ea6f24750f80")
 		(property "Reference" "C10"
-			(at 214.63 62.2299 0)
+			(at 218.44 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7382,7 +7722,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 214.63 64.7699 0)
+			(at 218.44 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7393,7 +7733,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 211.7852 67.31 0)
+			(at 215.5952 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7404,7 +7744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 63.5 0)
+			(at 214.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,7 +7755,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 210.82 63.5 0)
+			(at 214.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7877,7 +8217,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 193.04 62.23 180)
+		(at 200.66 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7888,7 +8228,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7b8a73a-9805-4c90-bf85-532658f3e6e2")
 		(property "Reference" "#FLG03"
-			(at 193.04 64.135 0)
+			(at 200.66 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7899,7 +8239,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 193.0401 66.04 90)
+			(at 200.6601 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7911,7 +8251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 62.23 0)
+			(at 200.66 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7922,7 +8262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 62.23 0)
+			(at 200.66 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7933,7 +8273,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 62.23 0)
+			(at 200.66 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7950,6 +8290,88 @@
 			(project "CDFR2027-PAMIs-ELEC-control"
 				(path "/e464473e-1f11-4961-9962-67415e223b13/2b44e333-2813-4eec-85bd-a77a609ee76c"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 205.74 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec30a3b1-bf78-4ce7-bf23-363cf8c849e9")
+		(property "Reference" "D2"
+			(at 208.28 51.1174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 208.28 53.6574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 205.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 205.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "197b76aa-5746-41d1-9b05-d73911a87ace")
+		)
+		(pin "2"
+			(uuid "ce681c48-f056-4099-8e4f-9b3b4e87cb50")
+		)
+		(instances
+			(project "CDFR2027-PAMIs-ELEC-control"
+				(path "/e464473e-1f11-4961-9962-67415e223b13/2b44e333-2813-4eec-85bd-a77a609ee76c"
+					(reference "D2")
 					(unit 1)
 				)
 			)
