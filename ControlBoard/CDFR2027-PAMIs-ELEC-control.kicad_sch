@@ -1847,18 +1847,6 @@
 		(uuid "e67ef520-7ee1-4655-8e69-85139bf401c0")
 	)
 	(no_connect
-		(at 138.43 96.52)
-		(uuid "26b26a90-2750-411d-b784-8e8a3cd5f7ee")
-	)
-	(no_connect
-		(at 138.43 101.6)
-		(uuid "40a7efa7-68db-487e-9f96-915949bd90ea")
-	)
-	(no_connect
-		(at 138.43 104.14)
-		(uuid "426fff3d-5491-4a2f-ba4c-72bebb6d09b1")
-	)
-	(no_connect
 		(at 138.43 78.74)
 		(uuid "5bc9ebc5-bb23-4a38-8f34-ce49c168ca1a")
 	)
@@ -1877,10 +1865,6 @@
 	(no_connect
 		(at 168.91 88.9)
 		(uuid "b7ffeaa0-1b1c-40ed-a82a-54a857b2770d")
-	)
-	(no_connect
-		(at 138.43 99.06)
-		(uuid "d343b023-058b-473d-b56d-662fd216eacf")
 	)
 	(no_connect
 		(at 168.91 83.82)
@@ -2008,13 +1992,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 111.76) (xy 171.45 130.81)
+			(xy 129.54 130.81) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "295d8b5e-3d62-422f-a4dd-527e3c094c63")
+		(uuid "2aa33828-abc2-47e6-bf5b-785920cfd4d1")
 	)
 	(wire
 		(pts
@@ -2025,16 +2009,6 @@
 			(type default)
 		)
 		(uuid "2bef5cda-7e51-4ba2-9a42-d0009d846b2c")
-	)
-	(wire
-		(pts
-			(xy 173.99 109.22) (xy 173.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f81f93c-edfc-427c-83d3-bdd3a445bdf7")
 	)
 	(wire
 		(pts
@@ -2078,6 +2052,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 130.81) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3920ba84-6547-4b7e-89e4-9d4c650c63e8")
+	)
+	(wire
+		(pts
 			(xy 105.41 36.83) (xy 105.41 46.99)
 		)
 		(stroke
@@ -2095,6 +2079,16 @@
 			(type default)
 		)
 		(uuid "4ea6f271-df55-42df-a24c-83c692e8085c")
+	)
+	(wire
+		(pts
+			(xy 121.92 96.52) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5064016b-f87f-4f1a-b3bf-4b00fcd05b5f")
 	)
 	(wire
 		(pts
@@ -2158,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 109.22) (xy 173.99 109.22)
+			(xy 168.91 109.22) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2178,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 111.76) (xy 171.45 111.76)
+			(xy 168.91 111.76) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2298,6 +2292,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 130.81) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad392235-3040-4549-a0af-03b281bd1bb5")
+	)
+	(wire
+		(pts
 			(xy 168.91 71.12) (xy 196.85 71.12)
 		)
 		(stroke
@@ -2325,6 +2329,16 @@
 			(type default)
 		)
 		(uuid "b0d116f5-a5ff-49f2-8dd8-d3f7ec9ad92e")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b418274f-1afa-4c45-a077-09415bb2ce28")
 	)
 	(wire
 		(pts
@@ -2458,6 +2472,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 109.22) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a8e2fe-8847-4b79-b503-d9c2508cabf8")
+	)
+	(wire
+		(pts
 			(xy 132.08 59.69) (xy 132.08 66.04)
 		)
 		(stroke
@@ -2465,6 +2489,16 @@
 			(type default)
 		)
 		(uuid "d7b111cb-9ece-4607-9625-e39c47713fc3")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad291a6-143c-4b5c-81c9-1a362cc6681a")
 	)
 	(wire
 		(pts
@@ -2485,6 +2519,16 @@
 			(type default)
 		)
 		(uuid "dd8cb919-4b8c-4bc9-b3d7-35275519b59f")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc0f1b0-0f3d-4f24-8538-417e985b986b")
 	)
 	(wire
 		(pts
@@ -2538,6 +2582,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda79265-9269-4f97-ab17-1f5e2caf3dfb")
+	)
+	(wire
+		(pts
 			(xy 168.91 93.98) (xy 196.85 93.98)
 		)
 		(stroke
@@ -2555,6 +2609,16 @@
 			(type default)
 		)
 		(uuid "f4bb7926-d630-46a1-b97a-ad8e3cee22fc")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77175a4-a6d3-4b11-a284-8e39f94165f0")
 	)
 	(wire
 		(pts
@@ -2999,7 +3063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 176.53 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -3388,7 +3452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -3623,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 143.51 57.912 90)
 			(hide yes)
 			(show_name no)
@@ -3695,14 +3759,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 36.8299 90)
+			(at 96.52 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Package_SO:Texas_DGN0008G_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.846x2.15mm_ThermalVias"
@@ -4387,7 +4450,7 @@
 			)
 		)
 		(pin "SERVO_1" input
-			(at 171.45 130.81 90)
+			(at 175.26 130.81 90)
 			(uuid "5cd89c98-c207-4379-8c5f-8cfad98efe89")
 			(effects
 				(font
@@ -4397,7 +4460,7 @@
 			)
 		)
 		(pin "SERVO_2" input
-			(at 173.99 130.81 90)
+			(at 172.72 130.81 90)
 			(uuid "9f3d9677-c3bc-4219-b3b9-01e9f0cb80d0")
 			(effects
 				(font
@@ -4429,6 +4492,46 @@
 		(pin "STATUS_LED" input
 			(at 137.16 130.81 90)
 			(uuid "c1e3760b-1ba7-46ea-b97e-232ccfafe3f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1" input
+			(at 129.54 130.81 90)
+			(uuid "2889167c-d8de-4966-9ea0-a5cb12bd8884")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2" input
+			(at 127 130.81 90)
+			(uuid "425a0c69-892d-4a5d-ba3b-9625ca27899d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO3" input
+			(at 124.46 130.81 90)
+			(uuid "06fbf788-a9b4-463b-b14e-b5b868b144ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO4" input
+			(at 121.92 130.81 90)
+			(uuid "cdd355b9-b2fd-49d0-b7bb-cc916ead5a2b")
 			(effects
 				(font
 					(size 1.27 1.27)
