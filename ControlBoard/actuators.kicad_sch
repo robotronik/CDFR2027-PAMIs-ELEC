@@ -1518,8 +1518,8 @@
 	)
 	(text_box "Spare GPIOs\n"
 		(exclude_from_sim no)
-		(at 93.98 92.71 0)
-		(size 31.75 15.24)
+		(at 91.44 92.71 0)
+		(size 34.29 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1923,7 +1923,7 @@
 		)
 		(uuid "4e204c5a-61bb-40fb-9fe4-db9b68df7839")
 	)
-	(hierarchical_label "GPIO1"
+	(hierarchical_label "GPIO13"
 		(shape input)
 		(at 102.87 97.79 180)
 		(effects
@@ -1945,7 +1945,7 @@
 		)
 		(uuid "a09b56fe-8fbd-444c-a76a-37e703c195ad")
 	)
-	(hierarchical_label "GPIO3"
+	(hierarchical_label "GPIO11"
 		(shape input)
 		(at 102.87 102.87 180)
 		(effects
@@ -1956,7 +1956,7 @@
 		)
 		(uuid "b15e6742-c00d-4943-b560-5868336aae81")
 	)
-	(hierarchical_label "GPIO4"
+	(hierarchical_label "GPIO10"
 		(shape input)
 		(at 102.87 105.41 180)
 		(effects
@@ -1967,7 +1967,7 @@
 		)
 		(uuid "e719b2ae-ea1f-44b1-8445-0decfecdc8e6")
 	)
-	(hierarchical_label "GPIO2"
+	(hierarchical_label "GPIO12"
 		(shape input)
 		(at 102.87 100.33 180)
 		(effects

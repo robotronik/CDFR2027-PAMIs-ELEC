@@ -4499,7 +4499,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO1" input
+		(pin "GPIO13" input
 			(at 129.54 130.81 90)
 			(uuid "2889167c-d8de-4966-9ea0-a5cb12bd8884")
 			(effects
@@ -4509,7 +4509,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO2" input
+		(pin "GPIO12" input
 			(at 127 130.81 90)
 			(uuid "425a0c69-892d-4a5d-ba3b-9625ca27899d")
 			(effects
@@ -4519,7 +4519,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO3" input
+		(pin "GPIO11" input
 			(at 124.46 130.81 90)
 			(uuid "06fbf788-a9b4-463b-b14e-b5b868b144ac")
 			(effects
@@ -4529,7 +4529,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO4" input
+		(pin "GPIO10" input
 			(at 121.92 130.81 90)
 			(uuid "cdd355b9-b2fd-49d0-b7bb-cc916ead5a2b")
 			(effects
