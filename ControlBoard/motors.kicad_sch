@@ -2599,6 +2599,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de87e23c-6db4-44dc-b327-7d5968205c24")
 		)
@@ -4698,6 +4709,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 83.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2e301bf-ce60-4014-9ec8-938f1f89c796")
 		)
@@ -4926,6 +4948,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C158012"
 			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)

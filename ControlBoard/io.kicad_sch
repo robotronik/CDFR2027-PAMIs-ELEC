@@ -3747,6 +3747,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C144395"
+			(at 180.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3cef8e05-f684-4f70-bca2-7e89f36c647b")
 		)
@@ -3823,6 +3834,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144398"
 			(at 185.42 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3929,6 +3951,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22548"
+			(at 93.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c932a3b5-9f39-4754-bdfe-bb857e1cbba9")
 		)
@@ -4001,6 +4034,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 179.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52016392"
 			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4087,6 +4131,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 118.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907044"
+			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4336,6 +4391,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1592"
+			(at 106.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3c7d939-2cfb-488f-8c28-c17491ccff25")
 		)
@@ -4406,6 +4472,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 137.16 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3151746"
 			(at 137.16 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4530,6 +4607,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15999"
 			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4711,6 +4799,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22371297"
 			(at 93.98 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4948,6 +5047,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 118.11 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907044"
+			(at 118.11 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

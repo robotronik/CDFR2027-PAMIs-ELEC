@@ -2326,6 +2326,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 156.21 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dd368e2c-6d39-4f10-86dc-cde70499ae18")
 		)
@@ -2808,6 +2819,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52016392"
+			(at 107.95 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "84b15099-60f5-4620-bc0c-e632495315bd")
 		)
@@ -3054,6 +3076,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 156.21 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c81f03a6-af92-41b6-ae57-9df8e0d15905")
 		)
@@ -3206,6 +3239,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 156.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
 			(at 156.21 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3384,6 +3428,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 156.21 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
 			(at 156.21 55.88 0)
 			(hide yes)
 			(show_name no)

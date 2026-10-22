@@ -4205,6 +4205,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 69.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24ffaabb-9357-45b5-83c8-1e52d06cf8d9")
 		)
@@ -4459,6 +4470,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1592"
 			(at 250.19 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6191,6 +6213,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C51118"
+			(at 234.95 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a331c44a-4cf0-4e39-9901-48e9bf276d4e")
 		)
@@ -6271,6 +6304,17 @@
 		)
 		(property "Description" "Fuse"
 			(at 57.15 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52988540"
+			(at 57.15 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,6 +7103,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C153761"
+			(at 203.2 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "69c49cd7-394f-4d7d-befd-6b430147cf1f")
 		)
@@ -7131,6 +7186,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C114660"
 			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7512,6 +7578,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C179617"
+			(at 69.85 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c8f7c7c2-8305-4103-bb79-6277ff984a92")
 		)
@@ -7587,6 +7664,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C137745"
 			(at 162.56 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8017,6 +8105,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1592"
+			(at 218.44 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f92af2cc-bb5b-413d-920d-7d9e3c832ca0")
 		)
@@ -8097,7 +8196,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6364810"
+		(property "LCSC" "C5349706"
 			(at 154.94 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -8283,7 +8382,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C98220"
+		(property "LCSC" "C84376"
 			(at 40.64 127 0)
 			(hide yes)
 			(show_name no)
@@ -8605,6 +8704,17 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 209.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C153761"
+			(at 209.55 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
