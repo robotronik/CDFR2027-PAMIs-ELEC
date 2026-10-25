@@ -517,6 +517,13 @@
         "wire_width": 6
       },
       {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
         "bus_width": 14,
         "clearance": 0.1,
         "diff_pair_gap": 0.5,
@@ -526,7 +533,7 @@
         "microvia_drill": 0.2,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.6,
         "tuning_profile": "",
@@ -540,7 +547,7 @@
         "diff_pair_width": 0.15,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
@@ -557,7 +564,7 @@
         "microvia_drill": 0.1,
         "name": "small",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 0)",
         "track_width": 0.1,
         "tuning_profile": "",
@@ -570,7 +577,11 @@
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "GND": [
+        "GND"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "small",
@@ -595,10 +606,6 @@
       {
         "netclass": "Power",
         "pattern": "Net-(DC_DRIVER1-OUT2)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Motors/DC_2_IN1"
       },
       {
         "netclass": "Power",
@@ -647,10 +654,6 @@
       {
         "netclass": "Power",
         "pattern": "Net-(DC_DRIVER1-OUT1)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power/BATTERY_LEVEL"
       },
       {
         "netclass": "USB",
