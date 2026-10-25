@@ -594,14 +594,6 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/Motors/DC_1_IN1"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Motors/DC_1_IN2"
-      },
-      {
-        "netclass": "Power",
         "pattern": "Net-(DC_DRIVER1-OUT2)"
       },
       {
@@ -623,18 +615,6 @@
       {
         "netclass": "Power",
         "pattern": "Net-(DC_DRIVER3-OUT1)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Motors/DC_2_IN2"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Motors/DC_3_IN1"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Motors/DC_3_IN2"
       },
       {
         "netclass": "Power",
@@ -679,6 +659,14 @@
       {
         "netclass": "USB",
         "pattern": "/External IO/USB_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/External IO/D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/External IO/D+"
       }
     ]
   },
@@ -688,7 +676,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CDFR2027-PAMIs-ELEC-control.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

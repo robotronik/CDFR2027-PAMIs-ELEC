@@ -3243,6 +3243,26 @@
 		)
 		(uuid "ee33dd44-7bfd-49be-aed5-7dfd90900717")
 	)
+	(label "D+"
+		(at 107.95 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cc9c077-8cde-4aeb-84cb-a49868ba9a61")
+	)
+	(label "D-"
+		(at 107.95 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef598948-c175-4156-a428-0898ecaa2067")
+	)
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 179.07 113.03 180)
