@@ -4782,28 +4782,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d018bf5a-e142-4562-84d6-eaa99c8dd448")
 		(property "Reference" "USB1"
-			(at 67.31 90.4874 90)
+			(at 62.738 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 67.31 93.0274 90)
+		(property "Value" "GREEN"
+			(at 62.23 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"

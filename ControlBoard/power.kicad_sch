@@ -5586,7 +5586,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 128.27 127.3174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,7 +6029,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 95.25 127.3174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,7 +7365,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 113.03 127 90)
 			(show_name no)
 			(do_not_autoplace no)
