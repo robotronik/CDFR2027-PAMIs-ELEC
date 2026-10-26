@@ -20878,7 +20878,7 @@
 	(footprint "Symbol:KiCad-Logo2_6mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "9db68333-bdbf-4da1-bb07-30455ad0364c")
-		(at 124.543272 108.592526 180)
+		(at 124.5 107.81 180)
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
