@@ -2275,7 +2275,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C128464"
+		(property "LCSC" " C128464 "
 			(at 68.58 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -2789,7 +2789,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C701805"
+		(property "LCSC" " C75864 "
 			(at 236.22 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3430,7 +3430,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C701805"
+		(property "LCSC" " C75864 "
 			(at 62.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3979,7 +3979,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C701805"
+		(property "LCSC" " C75864 "
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
