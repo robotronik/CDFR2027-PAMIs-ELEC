@@ -469,7 +469,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bbcf5adc-4bb1-4c1d-ae05-e7eadf9551a6")
@@ -4276,7 +4276,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5fb374ca-1b71-490f-af05-53eba4894eb6")
@@ -10530,6 +10530,7 @@
 			(size 2 3.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "Net-(Q1-D)")
 			(uuid "0472c4b3-4446-45cc-9175-ee311ee25482")
 		)
 		(embedded_fonts no)
@@ -10563,7 +10564,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "95e3a113-0367-4ff4-931c-5e01e02687a8")
@@ -12041,6 +12042,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C49234152"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdca08ee-a413-4e9a-8432-d31014114ef2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15395,6 +15409,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C49234152"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6a08328-9c7f-4869-95f7-bf696ec83133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3769b03e-a7fe-40c0-b601-02709788079e")
 		(sheetname "/")
 		(sheetfile "CDFR2027-PAMIs-ELEC-control.kicad_sch")
@@ -17136,7 +17163,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "60837900-b15d-4b73-a1b9-57437cd73621")
@@ -30824,12 +30851,28 @@
 		(uuid "e15dc699-8e0b-492e-a099-c539065595ae")
 	)
 	(segment
+		(start 101.78 117.78)
+		(end 101.8 117.8)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(Q1-D)")
+		(uuid "403d88f0-e72d-4948-8c2f-85547cf60757")
+	)
+	(segment
 		(start 103.9 129.7)
 		(end 101.8 127.6)
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(Q1-D)")
 		(uuid "78053a15-6380-4982-8f79-ee2bb90eb03d")
+	)
+	(segment
+		(start 101.8 124.1)
+		(end 101.8 122.59)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(Q1-D)")
+		(uuid "7ae765e4-f464-4584-9039-6a1e57aadafa")
 	)
 	(segment
 		(start 103.9 130.125)
@@ -30840,12 +30883,44 @@
 		(uuid "8cc370cd-31f2-42bb-875d-12fd02b77c8d")
 	)
 	(segment
+		(start 101.78 115.98)
+		(end 101.78 117.78)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(Q1-D)")
+		(uuid "e24709f6-0cb2-49f1-87a9-3c950b318dd6")
+	)
+	(segment
 		(start 101.8 127.6)
 		(end 101.8 124.1)
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(Q1-D)")
 		(uuid "e7f04a73-0a86-4326-b52e-be43b9681876")
+	)
+	(via
+		(at 101.78 122.59)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(Q1-D)")
+		(uuid "77078f49-e277-4630-a19e-bdd7121e5247")
+	)
+	(via
+		(at 101.78 115.98)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(Q1-D)")
+		(uuid "c502a76b-8a04-46a2-9c49-6e5272e8911d")
+	)
+	(segment
+		(start 101.78 122.59)
+		(end 101.78 115.98)
+		(width 0.6)
+		(layer "B.Cu")
+		(net "Net-(Q1-D)")
+		(uuid "dbf67f89-2c78-42ec-bbd8-68ed03f84424")
 	)
 	(segment
 		(start 150.5 125.25)
