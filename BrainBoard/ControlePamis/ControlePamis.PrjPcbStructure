@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Groupe_SCH.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Groupe_SCH.SchDoc|Designator=power|SchDesignator=power|FileName=SCH_power.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=SCH_power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Groupe_SCH.SchDoc|Designator=uc|SchDesignator=uc|FileName=SCH_main.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=SCH_main.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

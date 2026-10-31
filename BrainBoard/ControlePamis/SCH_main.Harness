@@ -1,0 +1,1 @@
+SPI_ControlBoard=SPI_CB_CLK,SPI_CB_CS,SPI_CB_Handshake,SPI_CB_MISO,SPI_CB_MOSI
